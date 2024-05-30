@@ -1,0 +1,151 @@
+@media only screen and (max-width: 650px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .img {
+    width: 15vw;
+    height: 7vh;
+  }
+
+  nav {
+    height: 10vh;
+    background-color: rgb(22, 22, 119);
+    display: flex;
+    align-items: center;
+  }
+  .form {
+    width: 90%;
+    height: 80vh;
+    background-color: rgb(229, 227, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+
+  input {
+    width: 90%;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+  }
+  #signUp {
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 5vh;
+    margin-top: 20px;
+    background-color: rgb(22, 22, 119);
+    color: white;
+    font-size: 1.2em;
+  }
+  #signUp:hover {
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 5vh;
+    margin-top: 20px;
+    background-color: rgb(20, 20, 227);
+    color: white;
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    margin-top: 30px;
+  }
+  .login-link {
+    color: rgb(43, 43, 155);
+  }
+  span {
+    color: rgb(201, 15, 15);
+    margin-top: 5px;
+    width: 70%;
+    text-align: center;
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 651px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .img {
+    width: 10vw;
+    height: 13vh;
+  }
+
+  nav {
+    height: 15vh;
+    background-color: rgb(22, 22, 119);
+    display: flex;
+    align-items: center;
+  }
+  .form {
+    width: 45vw;
+    height: 80vh;
+    background-color: rgb(229, 227, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+
+  input {
+    width: 40vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+  }
+  #signUp {
+    border: none;
+    border-radius: 5px;
+    width: 12vw;
+    height: 7vh;
+    margin-top: 20px;
+    background-color: rgb(22, 22, 119);
+    color: white;
+    font-size: 1.2em;
+  }
+
+  #signUp:hover {
+    border: none;
+    border-radius: 5px;
+    width: 12vw;
+    height: 7vh;
+    margin-top: 20px;
+    background-color: rgb(20, 20, 227);
+    color: white;
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    margin-top: 30px;
+  }
+  .login-link {
+    color: rgb(43, 43, 155);
+  }
+  span {
+    color: rgb(201, 15, 15);
+    margin-top: 5px;
+  }
+}
