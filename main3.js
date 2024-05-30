@@ -36,3 +36,7 @@ h4.innerText = data.fullName;
 h1.innerText = `Welcome ${data.fullName} ❤️🎉`;
 
 fetching();
+
+function logout() {
+  localStorage.removeItem("User");
+}

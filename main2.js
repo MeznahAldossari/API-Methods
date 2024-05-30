@@ -39,3 +39,7 @@ async function login() {
     p.innerText = "Please Enter correct Email and Password";
   }
 }
+
+function logout() {
+  localStorage.removeItem("User");
+}
