@@ -9,15 +9,15 @@ let url = "https://665736969f970b3b36c8658a.mockapi.io/userForm";
 async function signUp() {
   let span1 = document.getElementById("passwordError");
   let span2 = document.getElementById("emailError");
-  let span3 = document.getElementById("nameError");
+  let span3 = document.getElementById("userNameError");
   span1.innerText = "";
   span2.innerText = "";
   span3.innerText = "";
 
   let RegExpName = /^[A-Za-z]{6,}$/;
-  let checkName = RegExpName.test(names.value);
+  let checkName = RegExpName.test(username.value);
   if (!checkName) {
-    let span = document.getElementById("nameError");
+    let span = document.getElementById("userNameError");
     span.innerText = "The Name Should be Characters and more than 5 letters";
   }
 
